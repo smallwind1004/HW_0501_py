@@ -1,0 +1,6 @@
+val1 = input("數字1 : ")
+val2 = input("數字2 : ")
+print(val1 + " + " + val2 + " = " + str(int(val1) + int(val2)))
+print(val1 + " - " + val2 + " = " + str(int(val1) - int(val2)))
+print(val1 + " * " + val2 + " = " + str(int(val1) * int(val2)))
+print(val1 + " / " + val2 + " = " + str(int(val1) // int(val2)) + "..." + str(int(val1) % int(val2)))
